@@ -7,8 +7,8 @@
  *   typeof []==="object"
  *   typeof {} === "object"
  * 2.constructor 可以找到这个变量是通过谁构造出来的
- *   [].constructor   ƒ Array() { [native code] }
- *   ({}).constructor  ƒ Object() { [native code] }
+ *   [].constructor === Array
+ *   ({}).constructor === Object
  * 3.instanceof 判断谁是谁的实例 __proto__
  * 4.Object.prototype.toString.call() 缺陷：不能细分谁是谁的实例
  *   Object.prototype.toString.call()  "[object Undefined]"
